@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shitij.goyal.slidebuttonproject.MainActivity">
+
+
+
+    <com.shitij.goyal.slidebutton.SwipeButton
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:gradient_color_1="@color/colorPrimary"
+        app:gradient_color_2="@color/colorAccent"
+        app:threshold="0.7"
+        app:swipe_mode="repeat"
+        app:gradient_color_2_width="90dp"
+        app:after_confirmation_background="#E96251"
+        app:button_confirm_text="Confirmed!!"
+        app:button_swipe_text="Swipe!!"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#E96251"
+        android:gravity="center"
+        android:text="Swipe"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

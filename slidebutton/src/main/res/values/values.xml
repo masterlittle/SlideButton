@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeButton">
+        <attr name="gradient_color_1" format="color"/>
+        <attr name="gradient_color_2" format="color"/>
+        <attr name="gradient_color_2_width" format="dimension"/>
+        <attr name="gradient_color_3" format="color"/>
+        <attr name="after_confirmation_background" format="color"/>
+        <attr name="threshold" format="float"/>
+        <attr name="button_swipe_text" format="string"/>
+        <attr name="button_confirm_text" format="string"/>
+        <attr name="button_post_confirm_text" format="string"/>
+        <attr name="swipe_mode" format="enum">
+            <enum name="clamp" value="0"/>
+            <enum name="mirror" value="1"/>
+            <enum name="repeat" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
