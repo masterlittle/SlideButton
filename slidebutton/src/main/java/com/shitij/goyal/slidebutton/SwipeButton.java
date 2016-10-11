@@ -63,7 +63,6 @@ public class SwipeButton extends Button {
 
     private float xInitial;
     private Swipe swipeCallback;
-    private int mode;
 
     /**
      * Instantiates a new Swipe button.
@@ -121,48 +120,6 @@ public class SwipeButton extends Button {
         setMode(attributes.getInt(R.styleable.SwipeButton_swipe_mode, defaultMode));
     }
 
-    @NonNull
-    private String getDefaultButtonPressText() {
-        return defaultButtonPressText;
-    }
-
-    @Nullable
-    private String getDefaultActionConfirmText() {
-        return defaultActionConfirmText;
-    }
-
-    private float getY1() {
-        return y1;
-    }
-
-    private int getDefaultGradientColor1() {
-        return defaultGradientColor1;
-    }
-
-    private int getDefaultGradientColor2() {
-        return defaultGradientColor2;
-    }
-
-    private int getDefaultGradientColor2Width() {
-        return defaultGradientColor2Width;
-    }
-
-    private int getDefaultGradientColor3() {
-        return defaultGradientColor3;
-    }
-
-    private int getDefaultAfterConfirmationBackground() {
-        return defaultAfterConfirmationBackground;
-    }
-
-    private float getDefaultThreshold() {
-        return defaultThreshold;
-    }
-
-    public String getDefaultPostActionConfirmText() {
-        return defaultPostActionConfirmText;
-    }
-
     /**
      * On touch event boolean.
      *
@@ -195,7 +152,6 @@ public class SwipeButton extends Button {
                 //here we'll capture when the user swipes from left to right and write the logic to create the swiping effect
 
                 float x2 = event.getX();
-                float y2 = event.getY();
 
                 if (!isSwiping()) {
                     xInitial = event.getX();
