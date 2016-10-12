@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'slide-button'
+
+    publishedGroupId = 'com.shitij.goyal'
+    libraryName = 'slide-button'
+    artifact = 'slide-button'
+
+    libraryDescription = 'A simple, elegant and customisable swipable button for Android.'
+
+    siteUrl = 'https://github.com/masterlittle/SlideButton'
+    gitUrl = 'https://github.com/masterlittle/SlideButton.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'masterlittle'
+    developerName = 'Shitij Goyal'
+    developerEmail = 'goyalshitij@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
@@ -29,3 +53,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.1.1'
     testCompile 'junit:junit:4.12'
 }
+
+// Place it at the end of the file
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
