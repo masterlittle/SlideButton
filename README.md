@@ -2,6 +2,16 @@
 
 A simple, elegant and customizable library for implementing the swipe button. Just add this library in your build.gradle and use the SlideButton view to use the slide view.
 
+## Screenshots
+See the melange of colors and the text change when swiping and when swipe is successful!!
+
+![The button when you first view it](https://i.imgur.com/RVmfsQd.png "Simple button")
+![The button with clamp configuration using two colors](https://i.imgur.com/oNSd8OJ.png "Simple button")
+![The button with mirror configuration and two colors](https://i.imgur.com/gIyX0Z8.png "Simple button")
+![The button with clamp configuration and three colors](https://i.imgur.com/Rnuw720.png "Simple button")
+![The button with repeat configuration and two colors](https://i.imgur.com/kZj9Fa8.png "Simple button")
+![The button with mirror configuration and three colors](https://i.imgur.com/tgdoC3a.png "Simple button")
+
 #What all can you customize?
 
 * **app:gradient_color_1** = Set the primary color of the Slide button.
