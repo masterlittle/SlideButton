@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/SlideButtonProject.iml" filepath="$PROJECT_DIR$/SlideButtonProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/slidebutton/slidebutton.iml" filepath="$PROJECT_DIR$/slidebutton/slidebutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slide-button/slide-button.iml" filepath="$PROJECT_DIR$/slide-button/slide-button.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidebutton/slidebutton.iml" filepath="$PROJECT_DIR$/slidebutton/slidebutton.iml" />
     </modules>
   </component>
