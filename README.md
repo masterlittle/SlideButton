@@ -42,7 +42,7 @@ There is a simple sample included in the code to help you jumpstart. Cheers!!
 ## Screenshots
 See the melange of colors and the text change when swiping and when swipe is successful!!
 
-![The button with clamp configuration using two colors](/resources/slidebutton_clamp_2.gif "Slide button")
-![The button with mirror configuration and three colors](/resources/slidebutton_mirror_3.gif "Mirror Slide button")
-![The button with clamp configuration and three colors](/resources/slidebutton_clamp_3.gif "Slide button")
-![The button with clamp configuration and three colors](/resources/slidebutton_clamp_3_green.gif "Slide button")
+![The button with clamp configuration using two colors](/resource/slidebutton_clamp_2.gif "Slide button")
+![The button with mirror configuration and three colors](/resource/slidebutton_mirror_3.gif "Mirror Slide button")
+![The button with clamp configuration and three colors](/resource/slidebutton_clamp_3.gif "Slide button")
+![The button with clamp configuration and three colors](/resource/slidebutton_clamp_3_green.gif "Slide button")
