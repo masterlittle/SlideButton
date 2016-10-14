@@ -1,17 +1,29 @@
-# SlideButton
+# SlideButton [![](https://www.jitpack.io/v/masterlittle/SlideButton.svg)](https://www.jitpack.io/#masterlittle/SlideButton)
 
-A simple, elegant and customizable library for implementing the swipe button. Just add this library in your build.gradle and use the SlideButton view to use the slide view.
+A simple, elegant and customizable library for implementing the swipe button. Just add this library in your build.gradle and use the SlideButton view to use the slide view. (Scroll down for Screenshots.)
 
-## Screenshots
-See the melange of colors and the text change when swiping and when swipe is successful!!
 
-![The button when you first view it](https://i.imgur.com/RVmfsQd.png "Simple button")
-![The button with clamp configuration using two colors](https://i.imgur.com/oNSd8OJ.png "Simple button")
-![The button with mirror configuration and two colors](https://i.imgur.com/gIyX0Z8.png "Simple button")
-![The button with clamp configuration and three colors](https://i.imgur.com/Rnuw720.png "Simple button")
-![The button with repeat configuration and two colors](https://i.imgur.com/kZj9Fa8.png "Simple button")
-![The button with mirror configuration and three colors](https://i.imgur.com/tgdoC3a.png "Simple button")
+# Importing the library
 
+* Add the jitpack url in your root build.gradle at the end of repositories:
+
+  ```
+  allprojects {
+      repositories {
+          maven { url "https://www.jitpack.io" }
+      }
+  }
+  ```
+  
+* Add the dependency
+ 
+ ```
+  dependencies {
+      compile 'com.github.masterlittle:SlideButton:1.1'
+	}
+  ```
+There is a simple sample included in the code to help you jumpstart. Cheers!!
+ 
 #What all can you customize?
 
 * **app:gradient_color_1** = Set the primary color of the Slide button.
@@ -25,4 +37,12 @@ See the melange of colors and the text change when swiping and when swipe is suc
 * **app:button_post_confirm_text** = Set the text to be shown after the user has removed their finger on a successful slide.
 * **app:swipe_mode** = 3 options to choose from. clamp, mirror, repeat. The default value set is clamp. Experiment with the colors and this mode for amazing effects.
 
-Use android:text = "bla bla" to set the initial text.
+#### Use android:text = "bla bla" to set the initial text.
+
+## Screenshots
+See the melange of colors and the text change when swiping and when swipe is successful!!
+
+![The button with clamp configuration using two colors](blob:https://imgur.com/5bf10432-4c37-4c66-9d60-ab3fc9d94bee "Slide button")
+![The button with mirror configuration and two colors](blob:https://imgur.com/351cc398-208d-466f-be68-dd3be8a1b3ce "Mirror Slide button")
+![The button with clamp configuration and three colors](blob:https://imgur.com/93e62a23-9c8b-436d-99ed-f3d51fd5f9a4 "Slide button")
+![The button with clamp configuration and three colors](blob:https://imgur.com/f3c30ef8-9149-48c3-a80a-91fdbc9224e8 "Slide button")
