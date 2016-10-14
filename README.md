@@ -5,12 +5,12 @@ A simple, elegant and customizable library for implementing the swipe button. Ju
 
 # Importing the library
 
-* Add the jitpack url in your root build.gradle at the end of repositories:
+* Add the jcenter url in your root build.gradle at the end of repositories:
 
   ```
   allprojects {
       repositories {
-          maven { url "https://www.jitpack.io" }
+          jcenter()
       }
   }
   ```
@@ -19,7 +19,7 @@ A simple, elegant and customizable library for implementing the swipe button. Ju
  
  ```
   dependencies {
-      compile 'com.github.masterlittle:SlideButton:1.1'
+      compile 'com.shitij.goyal:slide-button:1.0.0'
 	}
   ```
 There is a simple sample included in the code to help you jumpstart. Cheers!!
